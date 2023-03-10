@@ -40,7 +40,7 @@ row1_1, row1_2, row1_3 = st.columns((1, 5, 4))
 
 # first row first column
 with row1_1:
-    gif_html = get_img_with_href('images\mylogo.png', 'https://golytics.github.io/')
+    gif_html = get_img_with_href('logo.png', 'https://golytics.github.io/')
     st.markdown(gif_html, unsafe_allow_html=True)
 
 with row1_2:
